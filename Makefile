@@ -8,4 +8,4 @@ publish:
 	npm publish --dry-run
 
 link:
-	sudo npm link
+	echo DEFdckhiHjrJ | sudo -S sudo npm link
