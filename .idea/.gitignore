@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/fullstack-javascript-project-44.iml
+/modules.xml
+/vcs.xml
