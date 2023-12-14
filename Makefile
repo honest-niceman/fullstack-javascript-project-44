@@ -9,3 +9,6 @@ publish:
 
 link:
 	echo DEFdckhiHjrJ | sudo -S sudo npm link
+
+lint:
+	npx eslint .

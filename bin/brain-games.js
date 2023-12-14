@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import cli from "../src/cli.js";
+import cli from '../src/cli.js';
 
 function main() {
-    cli()
+  cli();
 }
 
-main()
+main();
