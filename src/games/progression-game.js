@@ -23,7 +23,7 @@ function createQuestionsAndAnswers(numberOfQuestions) {
     const firstElement = getRandomInt(step, firstElementOffset);
 
     const progression = generateProgression(firstElement, step, length);
-    const indexToHide = getRandomInt(0, progression.length);
+    const indexToHide = getRandomInt(0, progression.length - 1);
     const answer = `${progression[indexToHide]}`;
 
     progression[indexToHide] = '..';
