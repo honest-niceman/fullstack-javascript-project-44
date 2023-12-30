@@ -12,3 +12,5 @@ link:
 
 lint:
 	npx eslint .
+
+deploy: lint publish link
